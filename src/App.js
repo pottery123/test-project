@@ -6,13 +6,13 @@ import Home from "./Home";
 
 function App() {
   return (
-    <Routes>
-    <Route path="/" element={<Home />}></Route>
-    <Route path="/about" element={<About />}></Route>
-   
-   
-   
-  </Routes>
+    <div>
+      <Home />
+    </div>
+    // <Routes>
+    //   <Route path="/" element={<Home />}></Route>
+    //   <Route path="/about" element={<About />}></Route>
+    // </Routes>
   );
 }
 
