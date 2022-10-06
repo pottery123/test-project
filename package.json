@@ -1,5 +1,5 @@
 {
-  "homepage": "http://pottery123.github.io/test-project",
+  "homepage": "http://sarahkane.io/",
   "name": "test-project",
   "version": "0.1.0",
   "private": true,
@@ -9,13 +9,14 @@
     "@testing-library/user-event": "^13.5.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-router-dom": "^6.4.1",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
-    "predeploy" : "npm run build",
-    "deploy" : "gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -39,6 +40,9 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^4.0.0"
+    "autoprefixer": "^10.4.12",
+    "gh-pages": "^4.0.0",
+    "postcss": "^8.4.17",
+    "tailwindcss": "^3.1.8"
   }
 }
